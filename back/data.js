@@ -245,6 +245,7 @@ const newGame = () => {
      autoFlipCards = false;
      changeChoiceAfterFlipCard = false;
      timer = false;
+     gameBegin = false;
      timerValue = 0;
      votes = {};
      currentRound = {};
