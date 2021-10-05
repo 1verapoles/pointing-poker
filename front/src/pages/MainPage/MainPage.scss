@@ -1,0 +1,97 @@
+.pp {
+  margin-top: 132px;
+  margin-bottom: 50px;
+}
+
+.main__h {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #66999b;
+}
+
+.main__p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+  margin-right: 80px;
+}
+
+.main__w {
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.main__btn {
+  width: 241px;
+  height: 47px;
+  background-color: #2b3a67;
+  font-family: "Ruda", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  border: 0px;
+}
+
+.main__or {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #66999b;
+  margin-left: 150px;
+}
+
+.main__url {
+  color: #66999b;
+}
+
+.main__input {
+  width: 240px;
+  height: 47px;
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.main__conn {
+  margin-bottom: 50px;
+}
+
+.add__m {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.main__label {
+  cursor: pointer;
+  display: block;
+}
+
+input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.btn-file-upload {
+  width: 135px;
+  position: relative;
+}
+
+.btn-file-upload:after {
+  content: attr(data-val);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 70%;
+  background: #ccc;
+  color: #000;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2;
+}

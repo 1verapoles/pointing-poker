@@ -1,0 +1,25 @@
+@import "variables.scss";
+@import "mixin.scss";
+
+@import "fonts.scss";
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+

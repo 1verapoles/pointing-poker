@@ -1,0 +1,77 @@
+.plcard__wrapper {
+  width: 97px;
+  height: 161px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.plcard__up {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.plcard__down {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transform: scale(-1);
+}
+
+.cardValue {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.plcard__cur {
+  cursor: pointer;
+}
+
+.plcard__cur:hover {
+  opacity: 0.5;
+}
+
+.plicons__wrapper {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+
+.plcard__inp {
+  border: 0;
+  outline: 0;
+  max-width: 70px;
+}
+
+.activeCard {
+  background-color: #60dabf;
+}
+
+.plCardActive {
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
