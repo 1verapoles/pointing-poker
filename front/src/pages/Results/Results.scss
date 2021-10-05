@@ -1,0 +1,11 @@
+.downl {
+  border: 1px solid blue;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.downl:hover {
+  text-decoration: none;
+  background-color: #ccc;
+}

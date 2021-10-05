@@ -1,0 +1,65 @@
+.scrum {
+  font-family: "Ruda", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+.rST {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2b3a67;
+  color: #fff;
+}
+
+.game__btn {
+  width: 241px;
+  height: 47px;
+  background-color: #2b3a67;
+  font-family: "Ruda", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  border: 0px;
+  margin-right: 15px;
+}
+
+.cancel {
+  color: #2b3a67;
+  background-color: #fff;
+  border: 1px solid #383a3d;
+}
+
+.members {
+  font-family: "Ruda", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+#score,
+#scoreSh {
+  padding: 5px;
+}
+
+.game__bd {
+  border-left: 1px solid #ccc;
+}
+
+.game__score {
+  height: 76px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}

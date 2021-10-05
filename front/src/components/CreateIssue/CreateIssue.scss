@@ -1,0 +1,18 @@
+.newissue__wpapper {
+  min-width: 300px;
+  width: 300px;
+  height: 76px;
+  padding: 10px;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.newissue__wpapper:hover {
+  opacity: 0.5;
+}

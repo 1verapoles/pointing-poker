@@ -1,0 +1,33 @@
+.author {
+  width: 20%;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.msg {
+  background: #ccc;
+  width: 80%;
+  flex-grow: 1;
+  font-size: 12px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  padding: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.msg__btn:hover {
+  opacity: 0.5;
+}
+
+.msg__text {
+  padding: 7px;
+  min-width: 300px;
+  min-height: 100px;
+  flex-grow: 1;
+}

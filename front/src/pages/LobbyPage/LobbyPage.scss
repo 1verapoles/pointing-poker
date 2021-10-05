@@ -1,0 +1,62 @@
+.scrum {
+  font-family: "Ruda", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+.lobby__link {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: italic;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.lobby__input {
+  width: 240px;
+  height: 47px;
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  background-color: transparent !important;
+}
+
+.lobby__conn {
+  margin-bottom: 50px;
+}
+
+.lobby__btn {
+  width: 241px;
+  height: 47px;
+  background-color: #2b3a67;
+  font-family: "Ruda", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  border: 0px;
+}
+
+.cancel {
+  color: #2b3a67;
+  background-color: #fff;
+  border: 1px solid #2b3a67;
+}
+
+.members {
+  font-family: "Ruda", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+#score,
+#scoreSh,
+#timerValue {
+  padding: 5px;
+}
